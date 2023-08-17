@@ -18,6 +18,9 @@ int _print_string(char *str);
 /* Tools functions :*/
 int _lent_string(char *str);
 char *_strdup(char *str);
+
+/* Annexe functions :*/
 void _cmd_execut(char *command);
+char *_cmd_parsing(char *command, char *delimiter);
 
 #endif /*HEADER_H*/

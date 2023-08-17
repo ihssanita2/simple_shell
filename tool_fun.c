@@ -47,7 +47,7 @@ int _lent_string(char *str)
 	return (i);
 }
 
-/* function 4 : _lent_string*/
+/* function 4 : _strdup*/
 
 /**
  * _strdup - returns a pointer to a newly allocated space in memory,
@@ -78,4 +78,3 @@ char *_strdup(char *str)
 	Array[i] = '\0';
 	return (Array);
 }
-
