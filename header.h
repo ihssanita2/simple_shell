@@ -16,11 +16,8 @@ int _putchar(char c);
 int _print_string(char *str);
 
 /* Tools functions :*/
-int _str_len(char *str);
-int _str_cmp(char *str1, char *str2);
-
-void _cmd_execut(char *command);
 int _lent_string(char *str);
-void _exit_cmd(char *command);
+char *_strdup(char *str);
+void _cmd_execut(char *command);
 
 #endif /*HEADER_H*/
