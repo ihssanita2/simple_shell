@@ -78,3 +78,26 @@ char *_strdup(char *str)
 	Array[i] = '\0';
 	return (Array);
 }
+
+/* function 5 : _str_cmp*/
+
+/**
+ * _str_cmp - compare two strings.
+ * @s1: pointer to the first string.
+ * @s2: pointer to the second string.
+ * Return: 0 if s1 and s2 are equals, another number if not.
+ */
+
+int _str_cmp(char *s1, char *s2)
+{
+	int x = 0;
+
+	while (s1[x] == s2[x])
+	{
+		if (s1[x] == '\0')
+			return (0);
+		x++;
+	}
+
+	return (s1[x] - s2[x]);
+}

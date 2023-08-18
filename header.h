@@ -22,5 +22,6 @@ char *_strdup(char *str);
 /* Annexe functions :*/
 void _cmd_execut(char *command);
 char *_cmd_parsing(char *command, char *delimiter);
+int _str_cmp(char *s1, char *s2);
 
 #endif /*HEADER_H*/
