@@ -132,16 +132,3 @@ void _free_fun(char **Dpointer)
 	}
 	free(Dpointer);
 }
-/* function 3 : _check_exit*/
-
-/**
- * _check_exit - Tokenize a given command using a specified delimiter.
- * @command: The command to be parsed.
- * @delimiter: The character used as a delimiter to split the command.
- * Return: an array of tokens, or NULL on memory allocation failure.
- */
-int _check_exit(char *command)
-{
-	int
-
-}

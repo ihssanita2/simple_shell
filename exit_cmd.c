@@ -2,15 +2,27 @@
 
 /* Collabration of JalalErr & ihssaneer*/
 
-/* function 1 : _cmd_execut*/
+/* function 1 : _exit_cmd */
 
 /**
- * _cmd_execut - execute the given command. 
- * @command: the given command.
- * @program_name: the name of the program.
- * Return: void.
+ * _exit_cmd - get out of programme. 
+ * @s1: first string.
+ * @s2: second string.
+ * Return: 0 if s1 and s2 are equals,
+ * another number if not.
  */
-void _exit_cmd(char *command)
-{
-	
-}
+
+    int  _exit_cmd(char *s1, char *s2)
+    {
+        int i = 0, v = 0;
+
+        while (v == 0)
+        {
+            if ((*(s1 + i) == '\0') && (*(s2 + i) == '\0'))
+                break;
+            v = *(s1 + i) - *(s2 + i);
+            i++;
+        }
+        return (v);
+    }
+    
