@@ -61,7 +61,7 @@ int _cmd_execut(char *command, char *argv, int count)
 	pid_t chp_id;
 	char **flag = NULL;
 	char *const envp[] = {NULL};
-	int status, i;
+	int status, i = 0;
 	/*Code section :*/
 	flag = _cmd_parsing(command, " ");
 	if (!flag)
